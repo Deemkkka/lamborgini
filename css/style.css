@@ -31,7 +31,9 @@ body{
 
 .header{
     padding-top: 25px;
-    position: absolute;
+    position: absolute; /*выдергивает header и позволяет приподняться блоку promo*/
+    left: 0;            /*возвращает header по центру*/
+    right: 0;           /*возвращает header по центру*/
 }
 
 .nav{
