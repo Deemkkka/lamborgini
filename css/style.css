@@ -49,10 +49,20 @@ body{
     color: #363636;
 }
 
+.promo{
+    background-image: url(../images/promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.promo__inner{
+    min-height: 100vh;
+}
 
 
 
 
 
 
-/*00-40*/
+/*00-48*/
