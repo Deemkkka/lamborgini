@@ -34,6 +34,7 @@ body{
     position: absolute; /*выдергивает header и позволяет приподняться блоку promo*/
     left: 0;            /*возвращает header по центру*/
     right: 0;           /*возвращает header по центру*/
+    background: linear-gradient(180deg, #d8d4ca 0%, rgba(217, 217, 217, 0) 100%);
 }
 
 .nav{
