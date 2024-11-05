@@ -20,8 +20,14 @@ a{
     text-decoration: none;
 }
 
-.container{
+.big-container{
     max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 920px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -95,6 +101,7 @@ body{
     font-size: 48px;
     border-bottom: 1px solid #040404;
     margin-bottom: 10px;
+    align-self: center;
 }
 
 .subtitle span{
@@ -112,9 +119,10 @@ body{
 .promo__arrow{
     margin-top: auto;
     margin-bottom: 30px;
+    align-self: center;
 }
 
 
 
 
-/*01-14*/
+/*2 00-05*/
