@@ -166,11 +166,25 @@ body{
 }
 
 .info__table{
+    flex-basis: 450px;
+    border-bottom: 1px solid #040404;
+    position: relative;
+    top: 20px;
+}
 
+.info__table::before{
+    content: '';
+    position: absolute;
+    border-top: 1px solid #040404;
+    width: 100%;
+    top: -20px;
+}
+
+.info__table td{ 
+    padding-bottom: 20px;
 }
 
 
 
 
-
-/*2 00-30*/
+/*2 00-37*/
