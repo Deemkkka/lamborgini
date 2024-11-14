@@ -265,6 +265,8 @@ body{
 .evo-black__img{
     display: block;
     margin: 170px auto 60px;
+    position: relative;
+    z-index: 1;
 }
 
 .evo__descr-list{
@@ -275,6 +277,27 @@ body{
 
 .evo-white__inner{
     padding-top: 125px;
+    position: relative;
+}
+
+.evo-white__inner::before{
+    content: '';
+    background-image: url(../images/dec-3.png);
+    width: 274px;
+    height: 250px;
+    position: absolute;
+    top: -20px;
+    left: 364px;
+}
+
+.evo-white__inner::after{
+    content: '';
+    background-image: url(../images/dec-4.png);
+    width: 324px;
+    height: 310px;
+    position: absolute;
+    top: 145px;
+    left: 610px;
 }
 
 .evo-white__text{
@@ -311,4 +334,4 @@ body{
     color: #fff;
 }
 
-/*3 00-45*/
+/*4 00-00*/
