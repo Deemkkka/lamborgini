@@ -210,6 +210,10 @@ body{
     margin-top: 250px;
 }
 
+.evo{
+    margin-bottom: 100px;
+}
+
 .evo-black{
     background-color: #363636;
     padding: 100px 0 50px;
@@ -334,4 +338,37 @@ body{
     color: #fff;
 }
 
-/*4 00-17*/
+.blog{
+    margin-bottom: 100px;
+}
+
+.blog__title{
+    font-weight: 300;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.blog__item-img{
+    margin-bottom: 20px;
+}
+
+.blog__item-title{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    min-height: 46px;
+}
+
+.blog__item-text{
+    margin-bottom: 10px;
+}
+
+.blog__item-link{
+    font-size: 13px;
+    color: #363636;
+}
+
+
+/*4 00-30*/
