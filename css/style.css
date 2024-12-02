@@ -391,4 +391,39 @@ body{
     transform: translateX(8px);
 }
 
-/*4 00-38*/
+.blog__quote{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+}
+
+.blog__quote-box{
+    flex-basis: 434px;
+}
+
+.blogquote{
+    margin-bottom: 30px;
+}
+
+.blogquote-name{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.blogquote-name span{
+    display: block;
+    margin-bottom: 3px;
+    color: #9f6b08;
+}
+
+.blogquote-text{
+    font-style: italic;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+/*4 00-47*/
