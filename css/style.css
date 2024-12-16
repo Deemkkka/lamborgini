@@ -464,6 +464,10 @@ body{
     flex-basis: 460px;
 }
 
+#map{
+    height: 250px;
+}
+
 .social-list{
     display: flex;
     gap: 0 20px;
@@ -482,4 +486,4 @@ body{
     align-items: center;
 }
 
-/*4 01-05*/
+/*4 01-25*/
